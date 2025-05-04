@@ -1,0 +1,16 @@
+@import url('../../../styles');
+
+.rectangle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1400px;
+    height: 900.39px;
+    left: 0;
+    right: 0;
+    top: 420px;
+    background-color: var(--main-color);
+    border-top: 0.5px solid #7877C666;
+    border-radius: 200px;
+    margin: 150px auto;
+}
+

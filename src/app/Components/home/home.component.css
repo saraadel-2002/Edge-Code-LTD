@@ -1,0 +1,248 @@
+@import url('../../../styles');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+#home{
+    background-color: var(--main-color);
+    padding-block: 120px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/* Hero Section Background */
+.hero-section {
+    position: relative;
+    background: radial-gradient(circle, var(--main-color));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    box-shadow: none;
+}
+  
+/* Background Effects */
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+  
+/* .dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/images/stardust.png'); 
+    opacity: 0.4; 
+    animation: moveDots 20s linear infinite;
+    background-color: blue;
+} */
+   
+  
+.light {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent 80%);
+    transform: translate(-50%, 50%);
+    filter: blur(50px);
+    animation: glow 5s ease-in-out infinite alternate;
+}
+  
+  /* Animations */
+  /* @keyframes moveDots {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-10%, -10%);
+    }
+  } */
+  
+  @keyframes glow {
+    0% {
+      opacity: 0.5;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  }
+
+/* ^homee-caption */
+.home-caption{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.home-caption .paragraph1{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21.6px;
+    background: linear-gradient(to right, #CBB8FF, #807DFF) !important; 
+    -webkit-background-clip: text !important; 
+    -webkit-text-fill-color: transparent !important; 
+    background-clip: text !important; 
+    color: transparent !important; 
+}
+.home-caption h1{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 61.6px;
+    letter-spacing: -1.12px;
+    color: #F7F8F8;
+}
+.home-caption .paragraph2{
+    color: #FFFFFF;
+    padding-block: 20px;
+    width: 1140px;
+    top: 73px;
+    margin: auto;
+}
+.home-caption .btns .contact{
+    background: var( --linear-gradient);
+    padding-inline: 40px;
+    padding-block: 13px;
+    border-radius: 30px;
+    border: none;
+    color: var(--btns-color);
+    font-weight: 500;
+    font-size: 14.01px;
+    line-height: 24.49px;
+    margin-right: 20px;
+}
+.home-caption .btns .join{
+    background: transparent;
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    color: var(--btns-color);
+    font-weight: 500;
+    font-size: 14.01px;
+    line-height: 24.49px;
+}
+  
+
+  
+  
+
+
+/* ? features */
+.features {
+    text-align: center;
+    z-index: 999;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+.features h3{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--h3-color);
+}
+.features-btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} 
+.feature-img {
+    margin: 10px;
+    width: 150px;  
+    height: 150px;
+}
+.feature-img a{
+    padding: 15px;
+    padding-inline: 10px;
+    background-color: #61616130;
+    border-radius: 50px;
+} 
+.feature-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+  
+
+/* ~services */
+.services{
+    padding-top: 80px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.title{
+    text-align: center;
+}
+.title img{
+    width: 108px;
+    height: 40px;
+}
+.title h3{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76.8px;
+    color: var(--h3-h4-h6-color);
+}
+.content-img{
+    position: relative;
+    width: 400px;
+    height: 368.17px;
+}
+.content-services{
+    padding-block: 60px;
+    margin: 60px auto;
+}
+
+.content-services h4{
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 66.5px;
+    letter-spacing: 1px;
+    color: var(--h3-h4-h6-color);
+    width: 530px;
+    gap: 18px;
+}
+.content-services p{
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.28px;
+    letter-spacing: 1px;
+    color: #C3C0C3;
+    width: 599px;
+    height: 84px;
+}
+
+.caption-p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+.caption p{
+    width: 285.97px;
+    height: 54.4px;
+    font-weight: 400;
+    font-size: 15.13px;
+    line-height: 27.2px;
+    color: #F0F0F0B2;
+}
+
+.caption h6{
+    color: #F0F0F0;
+    font-weight: 600;
+    font-size: 16.88px;
+    line-height: 30.6px;
+}

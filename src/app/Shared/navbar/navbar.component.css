@@ -1,0 +1,32 @@
+.navbar-brand img{
+    top: 15px;
+    left: 35px;
+}
+.background{
+    background-color: #000212;
+}
+button{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #F7F8F8;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24.48px;
+    /* margin-left: 70px; */
+}
+a:hover{
+    color: #F7F8F8 !important;    /*******************/
+}
+.navbar-nav .nav-item .nav-link{
+    color: #F7F8F8;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 48px;
+    align-items: center;
+    /* margin-left: 15px; */
+}

@@ -1,0 +1,135 @@
+<section id="home">
+    <div class="container">
+      <!--^home-caption  -->
+      <div class="hero-section">
+        <div class="background">
+          <!-- <div class="dots"></div> -->
+          <div class="light"></div>
+        </div>
+      
+        <div class="home-caption">
+          <p class="paragraph1">Your Development Partner</p>
+          <h1>Edge Code LTD</h1>
+          <p class="paragraph2">Edge Code is a software development consultancy specializing in intelligent edge products. We partner with semiconductor-based companies to accelerate their development cycle, emphasizing teamwork and ecosystem collaboration to deliver exceptional end-user experiences and faster market entry.</p>
+          <div class="btns">
+              <button class="contact">Contact Us</button>
+              <button class="join">Join our team</button>
+          </div>
+      </div>
+      </div>
+    
+      <!--!glowing-line  -->
+      <div>
+          <app-glowing-line></app-glowing-line>
+      </div>
+      
+      <!-- ?features -->
+      <div class="features mt-5">
+          <h3>Featured and seen in</h3>
+          <div class="features-btns">
+            <div class="feature-img" *ngFor="let feature of featuresList">
+              <a [routerLink]="feature.link">
+                <img [src]="feature.imgSrc" [alt]="feature.altText">
+              </a>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- ~services -->
+      <div class="services">
+        <div class="title">
+          <img src="../../../assets/images/services.png" alt="service">
+          <h3>Our Services</h3>
+        </div>
+        
+        <div class="row mt-4">
+          <div class="col-md-12 col-lg-6 hero-section">
+            <div class="backgroung">
+              <div class="light"></div>
+            </div>
+            <div class="content-img">
+              <img src="./assets/images/brain.png" alt="brain">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-6">
+            <div class="content-services">
+              <h4>Operating Systems</h4>
+              <p>An OS is software that manages a computer's hardware and software, enabling efficient resource use and user interaction. It handles tasks like process management, memory allocation, and file organization, making devices functional and user-friendly.</p>
+              <div class="caption-p">
+                <div class="caption">
+                  <h6>Type </h6>
+                  <p>Use and re-use responsive sections too 
+                    a main create the perfect layout.</p>
+                </div>
+                <div class="caption">
+                  <h6>Type </h6>
+                  <p>Use and re-use responsive sections too 
+                    a main create the perfect layout.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row mt-5">
+          <div class="col-md-12 col-lg-6">
+            <div class="content-services">
+              <h4>Frameworks and Runtimes</h4>
+              <p>An OS is software that manages a computer's hardware and software, enabling efficient resource use and user interaction. It handles tasks like process management, memory allocation, and file organization, making devices functional and user-friendly.</p>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-6 hero-section">
+            <div class="backgroung">
+              <div class="light"></div>
+            </div>
+            <div class="content-img">
+              <img src="./assets/images/cloud.png" alt="brain">
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-12 col-lg-6 hero-section">
+            <div class="backgroung">
+              <div class="light"></div>
+            </div>
+            <div class="content-img">
+              <img src="./assets/images/security.png" alt="brain">
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="content-services">
+              <h4>System Software</h4>
+              <p>An OS is software that manages a computer's hardware and software, enabling efficient resource use and user interaction. It handles tasks like process management, memory allocation, and file organization, making devices functional and user-friendly.</p>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-12 col-lg-6">
+            <div class="content-services">
+              <h4>Applications and CPU</h4>
+              <p>An OS is software that manages a computer's hardware and software, enabling efficient resource use and user interaction. It handles tasks like process management, memory allocation, and file organization, making devices functional and user-friendly.</p>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6 hero-section">
+            <div class="backgroung">
+              <div class="light"></div>
+            </div>
+            <div class="content-img">
+              <img src="./assets/images/server-based.png" alt="brain">
+            </div>
+          </div>
+        </div>
+
+      </div>
+        
+    </div>
+</section>

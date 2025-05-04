@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+:root{
+    --boorder : 1px solid var(--color-border);
+    --color-border:#52526F70;
+    --color-label:#D2D3E0;
+    --main-color:#000212;
+    --purple-color:#673FD7;
+    --btns-color:#F7F8F8;
+    --linear-gradient:linear-gradient(to right, #455EB5, #5643CC, #673FD7);
+    --h3-color:#F1F1EF;
+    --h3-h4-h6-color:#FFFFFF;
+}
+
+img{
+    width: 100%;
+}
+
+/* form */
+.form-container {
+    z-index: 99;
+    position: relative;
+    top: 10;
+    left: 0;
+    right: 0;
+}
+
+form {
+    margin: 150px auto;
+    width: 800px;
+    background-color: #1D1E2B75;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+input, select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #52526F70;
+    border-radius: 4px;
+    background-color: #151621;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #666;    
+}
+
+.btn-form{
+    background: linear-gradient(to right, #455EB5, #5643CC, #673FD7);
+    border: none;
+    padding: 10px;
+    padding-inline: 150px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 14.01;
+    line-height: 24.49px;
+    color: #F7F8F8;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
