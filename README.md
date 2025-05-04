@@ -20,6 +20,7 @@ This project is a responsive single-page web application developed using Angular
 *****Icons: FontAwesome icons for enhanced UI.
 
 
+
 🔧 Development Setup
 To run the project locally:
 
@@ -42,6 +43,8 @@ ng serve
 ```bash
 http://localhost:4200 .
 ```
+
+
 
 🧪 Testing
 Unit Tests: Run unit tests using Karma:
