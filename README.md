@@ -1,27 +1,69 @@
-# EdgeCodeLTD
+🚀 EdgeCodeLTD – Freelance Project
+This project is a responsive single-page web application developed using Angular v16.2.11, incorporating CSS, Bootstrap, FontAwesome, and custom animations. It includes features like user authentication, product listing, cart functionality, and a modern UI.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+🛠️ Technologies Used
+****Angular v16.2.11
+****Firebase (Firestore, Authentication)
+****TypeScript
+****CSS
+****Bootstrap
+****FontAwesome
+****Animations (CSS and Angular Animations)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+📦 Features
+*****User Authentication: Firebase Authentication for registration and login.
+*****Product Catalog: Display of products with filtering options.
+*****Shopping Cart: Real-time updates and smooth transitions.
+*****Responsive Design: Fully responsive layout with Bootstrap.
+*****Interactive Animations: Smooth animations using CSS and Angular.
+*****Icons: FontAwesome icons for enhanced UI.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🔧 Development Setup
+To run the project locally:
 
-## Build
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Running unit tests
+3. Start the development server:
+```bash
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Open the Application
+```bash
+http://localhost:4200 .
+```
 
-## Running end-to-end tests
+🧪 Testing
+Unit Tests: Run unit tests using Karma:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng test
+```
 
-## Further help
+End-to-End Tests: Run end-to-end tests (after setting up an E2E framework) using:
+```bash
+ng e2e
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+📦 Build for Production
+For a production-ready build, execute:
+```bash
+ng build --prod
+```
+📚 Further Help
+For more details on Angular CLI commands:
+
+```bash
+ng help
+```
+Check out the Angular CLI Overview and Command Reference.
