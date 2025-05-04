@@ -2,23 +2,24 @@
 This project is a responsive single-page web application developed using Angular v16.2.11, incorporating CSS, Bootstrap, FontAwesome, and custom animations. It includes features like user authentication, product listing, cart functionality, and a modern UI.
 
 🛠️ Technologies Used
-****Angular v16.2.11
-****Firebase (Firestore, Authentication)
-****TypeScript
-****CSS
-****Bootstrap
-****FontAwesome
-****Animations (CSS and Angular Animations)
+- **Angular v16.2.11**
+- **Firebase** (Firestore, Authentication)
+- **TypeScript**
+- **CSS**
+- **Bootstrap**
+- **FontAwesome**
+- **Animations** (CSS and Angular Animations)
 
 
 📦 Features
-*****User Authentication: Firebase Authentication for registration and login.
-*****Product Catalog: Display of products with filtering options.
-*****Shopping Cart: Real-time updates and smooth transitions.
-*****Responsive Design: Fully responsive layout with Bootstrap.
-*****Interactive Animations: Smooth animations using CSS and Angular.
-*****Icons: FontAwesome icons for enhanced UI.
-
+```plaintext
+- User Authentication: Firebase Authentication for registration and login.
+- Product Catalog: Display of products with filtering options.
+- Shopping Cart: Real-time updates and smooth transitions.
+- Responsive Design: Fully responsive layout with Bootstrap.
+- Interactive Animations: Smooth animations using CSS and Angular.
+- Icons: FontAwesome icons for enhanced UI.
+```
 
 
 🔧 Development Setup
